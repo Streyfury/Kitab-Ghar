@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 40px;
+    margin: 60px 0px;
+    
+   
+
+}
+.card
+{
+  height: 20vh;
+  width: 45vw;
+
+    border-radius: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 26px;
+    transition: 0.7s ease-in-out;
+    box-shadow: 0px 0px 5px #faf233,0px 0px 10px #faf233,0px 0px 15px #faf233;
+}
+.card h1 
+{
+    transition: 0.7s;
+}
+.card:hover{
+    height:30vh;
+    box-shadow: 0px 0px 5px red,0px 0px 10px red,0px 0px 15px red;
+
+
+}
+.card:hover h1{
+    margin-top: 20px;
+}
+.scifi
+{
+    background-image: url("sci-fi.jpg");
+    background-size: cover;
+}
+.literature
+{
+    background-image: url("literature.jpg");
+    background-size: cover; 
+}
+.encyclopedia
+{
+    background-image: url("encyclopedia.jpg");
+    background-size: cover; 
+}
+
+.fiction
+{
+    background-image: url("fiction cover.jpg");
+    background-size: cover; 
+}
+.technology
+{
+    background-image: url("Technology.jpg");
+    background-size: cover; 
+}
+.thriller
+{
+    background-image: url("thriller.jpg");
+    background-size: cover; 
+}
+
+
+
+
+
+
